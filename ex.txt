@@ -1,0 +1,28 @@
+.form {
+    grid-row-start: 1;
+    grid-row-end: 5;
+    grid-column-start: 5;
+    grid-column-end: 10;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    font-size: 1vw;
+}
+
+
+
+    <div class="form">
+     <form action="/">
+        <label for="fname"> <strong>First Name</strong> </label><br>
+        <input type="text" id="fname" name="First Name" placeholder="Your First Name Here" required><br>
+        <label for="lname"><strong>Last Name</strong> </label><br>
+        <input type="text" id="lname" name="Last Name" placeholder="Your Last Name Here" required><br>
+        <label for="Email"> <strong>Email</strong> </label><br>
+        <input type="text" id="Email" name="Email" placeholder="Your Email Here" required><br>
+        <label for="Subject"><strong>Subject</strong></label><br>
+        <textarea id="Subject" name="Subject" placeholder="Questions & Feedback Here" required></textarea><br>
+        <input type="submit" id="submit">
+     </form>
+     </div>
+
